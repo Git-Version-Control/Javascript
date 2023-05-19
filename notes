@@ -1,0 +1,23 @@
+document.getElementById("count-el")-this will grab entire <h2 id="count-el">0</h2>
+document.getElementById("count-el").innerText- will change the text
+
+onclick="increment()" ->calling function that is in javascript
+increment will increase the counter value in javascript 
+
+The type attribute: <script type=…>The old HTML standard, HTML4, required a script to have a type. 
+Usually it was type="text/javascript". It’s not required anymore.
+
+<h1>If src is set, the script content is ignored.</h1>
+
+Code Structure
+1)Statements are syntax constructs and commands that perform actions.eg alert('Hello, world!')
+2)A semicolon may be omitted in most cases when a line break exists.
+3)"use strict" can be put at the beginning of a function. Doing that enables strict mode in that function only
+
+
+DOM
++-> concat
+Node.textContent
+this property of the node interface represent the text content of the node and its descendants.
+innerText-show only human readable elements
+innerText struggle to read hidden content
